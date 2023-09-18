@@ -29,11 +29,12 @@ const SavedBooks = () => {
 
     try {
       // eslint-disable-next-line
-      const { data } = await removeBook({
+       await removeBook({
         variables: { bookId },
       });
       // upon success, remove book's id from localStorage
       removeBookId(bookId);
+      window.location.reload();
     } catch (err) {
       console.error(err);
     }
