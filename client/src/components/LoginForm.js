@@ -47,7 +47,7 @@ const LoginForm = () => {
     }
 
     setUserFormData({
-      username: '',
+
       email: '',
       password: '',
     });
@@ -56,7 +56,11 @@ const LoginForm = () => {
   return (
     <>
       <Form noValidate validated={validated} onSubmit={handleFormSubmit}>
-        <Alert dismissible onClose={() => setShowAlert(false)} show={showAlert} variant='danger'>
+        <Alert
+         dismissible 
+         onClose={() => setShowAlert(false)}
+          show={showAlert} 
+          variant='danger'>
           Something went wrong with your login credentials!
         </Alert>
         <Form.Group className='mb-3'>

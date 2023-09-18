@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
+
 import {
   Jumbotron,
   Container,
+  
   Col,
   Form,
   Button,
@@ -80,7 +82,7 @@ const SearchBooks = () => {
     }
 
     try {
-      const { data } = await saveBook({
+      await saveBook({
         variables: { bookData: { ...bookToSave } },
       });
 
@@ -97,7 +99,7 @@ const SearchBooks = () => {
         <Container>
           <h1>Search for Books!</h1>
           <Form onSubmit={handleFormSubmit}>
-            <Row>
+            <Form.Row>
               <Col xs={12} md={8}>
                 <Form.Control
                   name='searchInput'
@@ -113,7 +115,7 @@ const SearchBooks = () => {
                   Submit Search
                 </Button>
               </Col>
-            </Row>
+            </Form.Row>
           </Form>
         </Container>
       </Jumbotron>
@@ -127,7 +129,7 @@ const SearchBooks = () => {
         <CardColumns>
           {searchedBooks.map((book) => {
             return (
-              <Col md="4">
+              
                 <Card key={book.bookId} border='dark'>
                   {book.image ? (
                     <Card.Img src={book.image} alt={`The cover for ${book.title}`} variant='top' />
@@ -148,7 +150,7 @@ const SearchBooks = () => {
                     )}
                   </Card.Body>
                 </Card>
-              </Col>
+            
             );
           })}
         </CardColumns>
