@@ -61,7 +61,7 @@ Run the following command at the terminal:
 `npm run start` <br>
 - Go to http://localhost:3000 to view the app on local server<br>
 
-- Go to  to view the functionality on heroku app
+- Go to  to view https://book-search-engine-rb-c5b70442ea31.herokuapp.com/ the functionality on heroku app
 
 ## Contributing
 Rajni bala : (https://github.com/rbala16)
@@ -69,21 +69,6 @@ Rajni bala : (https://github.com/rbala16)
 ## Questions
 ✉️ Contact me with any questions: [Email:]bala12rajni@gmail.com , [Github](https://github.com/rbala16)<br />
 
-## Mock-Up
-
-Let's start by revisiting the web application's appearance and functionality.
-
-As you can see in the following screenshoot, a user can type a search term (in this case, "star wars") in a search box and the results appear:
-
-![Animation shows "star wars" typed into a search box and books about Star Wars appearing as results.](./Assets/21-mern-homework-demo-01.gif)
-
-The user can save books by clicking "Save This Book!" under each search result, as shown in the following screenshoot:
-
-![Animation shows user clicking "Save This Book!" button to save books that appear in search results. The button label changes to "Book Already Saved" after it is clicked and the book is saved.](./Assets/21-mern-homework-demo-02.gif)
-
-A user can view their saved books on a separate page, as shown in the following screenshoot:
-
-![The Viewing Lernantino's Books page shows the books that the user Lernaninto has saved.](./Assets/21-mern-homework-demo-03.gif)
 
 
 
@@ -93,9 +78,10 @@ A user can view their saved books on a separate page, as shown in the following 
 
 You are required to submit BOTH of the following for review:
 
-* The URL of the functional, deployed application.
+* The URL of the functional, deployed application.<br>
+https://book-search-engine-rb-c5b70442ea31.herokuapp.com/
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
+* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.<br>
+https://github.com/rbala16/Book-Search-Engine_rb
 ---
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
