@@ -61,7 +61,7 @@ Run the following command at the terminal:
 `npm run start` <br>
 - Go to http://localhost:3000 to view the app on local server<br>
 
-- Go to  to view https://book-search-engine-rb-c5b70442ea31.herokuapp.com/ the functionality on heroku app
+- Go to  to view https://book-service-engine-rb-0d6196b18c14.herokuapp.com/ the functionality on heroku app
 
 ## Contributing
 Rajni bala : (https://github.com/rbala16)
@@ -94,7 +94,7 @@ A user can view their saved books on a separate page, as shown in the following 
 You are required to submit BOTH of the following for review:
 
 * The URL of the functional, deployed application.<br>
-https://book-search-engine-rb-c5b70442ea31.herokuapp.com/
+https://book-service-engine-rb-0d6196b18c14.herokuapp.com/
 
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.<br>
 https://github.com/rbala16/Book-Search-Engine_rb
