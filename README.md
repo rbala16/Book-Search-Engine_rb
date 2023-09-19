@@ -49,10 +49,7 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 ## License 
 MIT License
 
-## Installation
-1. Clone the repository
-2. Install the following: 
-- npm install
+
 
 ## Instructions
 💻   
